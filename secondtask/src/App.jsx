@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import ToggleButton from './Component/ToggleButton/ToggleButton'
 import Counter from './Component/Counter/Counter'
 import ColorChanger from './Component/ColorChanger/ColorChanger'
+import UseEffectDemo from './Component/UseEffectDemo/UseEffectDemo'
+import InputDemo from './Component/InputDemo/InputDemo'
 
 function App() {
   
@@ -12,8 +12,14 @@ function App() {
   return (
     <>
      <ToggleButton/>
+     <hr />
      <Counter/>
+     <hr />
      <ColorChanger/>
+     <hr />
+     <UseEffectDemo/>
+     <hr />
+     <InputDemo/>
     </>
   )
 }
