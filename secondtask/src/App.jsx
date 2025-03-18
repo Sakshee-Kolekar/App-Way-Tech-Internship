@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ToggleButton from './Component/ToggleButton/ToggleButton'
 import Counter from './Component/Counter/Counter'
+import ColorChanger from './Component/ColorChanger/ColorChanger'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
     <>
      <ToggleButton/>
      <Counter/>
+     <ColorChanger/>
     </>
   )
 }
