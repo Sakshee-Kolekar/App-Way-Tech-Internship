@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
+import ButtonWithAlert from "../ButtonWithAlert/ButtonWithAlert";
 const Card = () => {
     return (
       <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-white p-4">
@@ -15,7 +16,8 @@ const Card = () => {
           </p>
         </div>
        
-        <Button/>
+        <Button text="Click Me"/>
+        <ButtonWithAlert text="show alert"/>
       </div>
     );
   };
